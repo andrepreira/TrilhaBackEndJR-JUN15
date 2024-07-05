@@ -3,7 +3,7 @@ name: Go CD
 on:
   push:
     branches:
-      - test-cd-pipeline
+      - main
 
 jobs:
   deploy:
